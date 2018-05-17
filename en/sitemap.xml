@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.hwdef.com/en/categories/</loc>
+    <loc>http://www.hwdef.com/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/categories/"
+                href="http://www.hwdef.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/categories/"
+                href="http://www.hwdef.com/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/en/hwdef/</loc>
+    <loc>http://www.hwdef.com/en/hwdef/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/hwdef/"
+                href="http://www.hwdef.com/hwdef/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/hwdef/"
+                href="http://www.hwdef.com/en/hwdef/"
                 />
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/en/series/</loc>
+    <loc>http://www.hwdef.com/en/series/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/series/"
+                href="http://www.hwdef.com/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/series/"
+                href="http://www.hwdef.com/en/series/"
                 />
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/en/tags/</loc>
+    <loc>http://www.hwdef.com/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/tags/"
+                href="http://www.hwdef.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/tags/"
+                href="http://www.hwdef.com/en/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/en/</loc>
+    <loc>http://www.hwdef.com/en/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/"
+                href="http://www.hwdef.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/"
+                href="http://www.hwdef.com/en/"
                 />
   </url>
   

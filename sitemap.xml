@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://www.hwdef.com/en/sitemap.xml</loc>
+	   	<loc>http://www.hwdef.com/zh/sitemap.xml</loc>
+		
+	   	<lastmod>2017-02-02T20:29:11+08:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://www.hwdef.com/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2017-02-02T20:29:11+08:00</lastmod>
+	   	<loc>http://www.hwdef.com/en/sitemap.xml</loc>
 		
 	</sitemap>
 	

@@ -3,105 +3,105 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.hwdef.com/about/</loc>
+    <loc>http://www.hwdef.com/about/</loc>
     <lastmod>2018-05-17T23:11:24+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/</loc>
+    <loc>http://www.hwdef.com/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2017-02-02T20:29:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/categories/</loc>
+    <loc>http://www.hwdef.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/categories/"
+                href="http://www.hwdef.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/categories/"
+                href="http://www.hwdef.com/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/hwdef/</loc>
+    <loc>http://www.hwdef.com/hwdef/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hwdef.com/en/hwdef/"
+                href="http://www.hwdef.com/en/hwdef/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://www.hwdef.com/hwdef/"
+                href="http://www.hwdef.com/hwdef/"
                 />
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/post/</loc>
-    <lastmod>2017-02-02T20:29:11+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hwdef.com/series/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hwdef.com/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.hwdef.com/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.hwdef.com/tags/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hwdef.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.hwdef.com/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.hwdef.com/</loc>
-    <lastmod>2017-02-02T20:29:11+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hwdef.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.hwdef.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.hwdef.com/tags/%E5%86%99%E4%BD%9C/</loc>
+    <loc>http://www.hwdef.com/post/</loc>
     <lastmod>2017-02-02T20:29:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.hwdef.com/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://www.hwdef.com/series/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/</loc>
+    <lastmod>2017-02-02T20:29:11+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/tags/%E5%86%99%E4%BD%9C/</loc>
+    <lastmod>2017-02-02T20:29:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2017-02-02T20:29:11+08:00</lastmod>
     <priority>0</priority>
   </url>
