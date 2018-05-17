@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.hwdef.com/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/en/hwdef/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/hwdef/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/hwdef/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/en/series/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.hwdef.com/en/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://www.hwdef.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.hwdef.com/en/"
+                />
+  </url>
+  
+</urlset>
