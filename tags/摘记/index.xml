@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>以梦喂马</title>
-    <link>http://www.hwdef.com/</link>
-    <description>Recent content on 以梦喂马</description>
+    <title>摘记 on 以梦喂马</title>
+    <link>http://www.hwdef.com/tags/%E6%91%98%E8%AE%B0/</link>
+    <description>Recent content in 摘记 on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 18 May 2018 18:55:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.hwdef.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.hwdef.com/tags/%E6%91%98%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       
       <guid>http://www.hwdef.com/post/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</guid>
       <description>那一天我二十一岁，在我一生的黄金时代，我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。后来我才知道，生活就是个缓慢受锤的过程，</description>
-    </item>
-    
-    <item>
-      <title>关于写作</title>
-      <link>http://www.hwdef.com/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/</link>
-      <pubDate>Thu, 02 Feb 2017 20:29:11 +0800</pubDate>
-      
-      <guid>http://www.hwdef.com/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/</guid>
-      <description>关于写作 快一个月没更新了，有很多想写的，但是之前静不下心，也没腾出来时间。今天趁着家里格外安静，想说一下写作对于我是怎样的。 知乎有个问题“如</description>
     </item>
     
   </channel>
