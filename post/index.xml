@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/post/</link>
     <description>Recent content in Posts on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 May 2018 21:36:35 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jun 2018 21:59:22 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows更改dvorak键位</title>
+      <link>https://hwdef.github.io/post/windows%E6%9B%B4%E6%94%B9dvorak%E9%94%AE%E4%BD%8D/</link>
+      <pubDate>Sat, 02 Jun 2018 21:59:22 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/windows%E6%9B%B4%E6%94%B9dvorak%E9%94%AE%E4%BD%8D/</guid>
+      <description>在网上找了很多教程，有的很麻烦，有的没用。 其实很简单 注册表定位到 计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentC</description>
+    </item>
     
     <item>
       <title>哈利波特</title>
