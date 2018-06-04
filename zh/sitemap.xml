@@ -43,12 +43,6 @@
   </url>
   
   <url>
-    <loc>https://hwdef.github.io/tags/</loc>
-    <lastmod>2018-06-02T21:59:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hwdef.github.io/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -101,7 +95,6 @@
   
   <url>
     <loc>https://hwdef.github.io/tags/</loc>
-    <lastmod>2018-06-02T21:59:22+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -134,12 +127,6 @@
   <url>
     <loc>https://hwdef.github.io/tags/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2018-06-02T21:59:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/tags/%E6%91%84%E5%BD%B1/</loc>
-    <lastmod>2018-06-04T13:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
