@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/post/</link>
     <description>Recent content in Posts on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Jun 2018 21:59:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 00:02:27 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>github pages使用自定义域名访问出现404 not found</title>
+      <link>https://hwdef.github.io/post/github-pages%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E5%87%BA%E7%8E%B0404-not-found/</link>
+      <pubDate>Wed, 06 Jun 2018 00:02:27 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/github-pages%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E5%87%BA%E7%8E%B0404-not-found/</guid>
+      <description>解析正常 dns也正常 一切看起来都正常 最后没办法了，把CNAME文件删了，通过仓库的setting页面设置的自定义域名。 错误的原因不知道，但是</description>
+    </item>
     
     <item>
       <title>Windows更改dvorak键位</title>
@@ -17,6 +26,15 @@
       
       <guid>https://hwdef.github.io/post/windows%E6%9B%B4%E6%94%B9dvorak%E9%94%AE%E4%BD%8D/</guid>
       <description>在网上找了很多教程，有的很麻烦，有的没用。 其实很简单 注册表定位到 计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentC</description>
+    </item>
+    
+    <item>
+      <title>摇摇晃晃的人间</title>
+      <link>https://hwdef.github.io/post/%E6%91%87%E6%91%87%E6%99%83%E6%99%83%E7%9A%84%E4%BA%BA%E9%97%B4/</link>
+      <pubDate>Fri, 18 May 2018 21:37:53 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/%E6%91%87%E6%91%87%E6%99%83%E6%99%83%E7%9A%84%E4%BA%BA%E9%97%B4/</guid>
+      <description>风把她的裙子吹得很高，像一朵年华 我们都老了 我依然说我爱你 哦，这是多少年的深思熟虑 我想起在一场爱情里，我也这样流泪过 便把酒杯里的酒，都倒进了酒</description>
     </item>
     
     <item>
