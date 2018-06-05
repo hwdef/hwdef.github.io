@@ -5,10 +5,21 @@
     <link>https://hwdef.github.io/</link>
     <description>Recent content on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jun 2018 00:02:27 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 00:27:06 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git</title>
+      <link>https://hwdef.github.io/post/git-pull-%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%86%85%E5%AE%B9%E5%BC%BA%E5%88%B6%E8%A6%86%E7%9B%96%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Wed, 06 Jun 2018 00:27:06 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/git-pull-%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%86%85%E5%AE%B9%E5%BC%BA%E5%88%B6%E8%A6%86%E7%9B%96%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6/</guid>
+      <description>git fetch &amp;ndash;all
+git reset &amp;ndash;hard origin/master
+git pull</description>
+    </item>
     
     <item>
       <title>github pages使用自定义域名访问出现404 not found</title>
