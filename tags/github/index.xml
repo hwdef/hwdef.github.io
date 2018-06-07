@@ -21,5 +21,14 @@ git reset &amp;ndash;hard origin/master
 git pull</description>
     </item>
     
+    <item>
+      <title>github pages使用自定义域名访问出现404 not found</title>
+      <link>https://hwdef.github.io/post/github-pages%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E5%87%BA%E7%8E%B0404-not-found/</link>
+      <pubDate>Wed, 06 Jun 2018 00:02:27 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/github-pages%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E5%87%BA%E7%8E%B0404-not-found/</guid>
+      <description>解析正常 dns也正常 一切看起来都正常 最后没办法了，把CNAME文件删了，通过仓库的setting页面设置的自定义域名。 错误的原因不知道，但是</description>
+    </item>
+    
   </channel>
 </rss>
