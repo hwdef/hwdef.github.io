@@ -5,17 +5,17 @@
     <link>https://hwdef.github.io/post/</link>
     <description>Recent content in Posts on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Oct 2018 14:52:36 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Dec 2018 00:02:22 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Leetcode笔记</title>
-      <link>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B01/</link>
-      <pubDate>Wed, 17 Oct 2018 14:52:36 +0800</pubDate>
+      <title>leetcode笔记(python)</title>
+      <link>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/</link>
+      <pubDate>Thu, 27 Dec 2018 00:02:22 +0800</pubDate>
       
-      <guid>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B01/</guid>
+      <guid>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/</guid>
       <description>1.大小写转换 str.upper() # 把所有字符中的小写字母转换成大写字母 str.lower() # 把所有字符中的大写字母转换成小写字母 str.capitalize() # 把第一个字母转化为大写字母，其余小写 str.title() # 把</description>
     </item>
     
@@ -145,15 +145,6 @@ git pull</description>
       
       <guid>https://hwdef.github.io/post/%E9%AB%98%E8%80%83%E4%B9%8B%E5%89%8D/</guid>
       <description>倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0/</guid>
-      <description>1.大小写转换 str.upper() # 把所有字符中的小写字母转换成大写字母 str.lower() # 把所有字符中的大写字母转换成小写字母 str.capitalize() # 把第一个字母转化为大写字母，其余小写 str.title() # 把</description>
     </item>
     
   </channel>

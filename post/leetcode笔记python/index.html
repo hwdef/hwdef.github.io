@@ -4,19 +4,19 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想'>
+<meta name='description' content='1.大小写转换 str.upper() # 把所有字符中的小写字母转换成大写字母 str.lower() # 把所有字符中的大写字母转换成小写字母 str.capitalize() # 把第一个字母转化为大写字母，其余小写 str.title() # 把'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='高考之前 • 以梦喂马'>
-<meta property='og:description' content='倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想'>
-<meta property='og:url' content='https://hwdef.github.io/post/%E9%AB%98%E8%80%83%E4%B9%8B%E5%89%8D/'>
+<meta property='og:title' content='leetcode笔记(python) • 以梦喂马'>
+<meta property='og:description' content='1.大小写转换 str.upper() # 把所有字符中的小写字母转换成大写字母 str.lower() # 把所有字符中的大写字母转换成小写字母 str.capitalize() # 把第一个字母转化为大写字母，其余小写 str.title() # 把'>
+<meta property='og:url' content='https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/'>
 <meta property='og:site_name' content='以梦喂马'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='随笔'><meta property='article:published_time' content='2016-05-30T22:01:11&#43;08:00'/><meta property='article:modified_time' content='2016-05-30T22:01:11&#43;08:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='技术'><meta property='article:published_time' content='2018-12-27T00:02:22&#43;08:00'/><meta property='article:modified_time' content='2018-12-27T00:02:22&#43;08:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.44" />
 
-  <title>高考之前 • 以梦喂马</title>
-  <link rel='canonical' href='https://hwdef.github.io/post/%E9%AB%98%E8%80%83%E4%B9%8B%E5%89%8D/'>
+  <title>leetcode笔记(python) • 以梦喂马</title>
+  <link rel='canonical' href='https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -66,7 +66,7 @@
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>高考之前</h1>
+      <h1 class='title'>leetcode笔记(python)</h1>
       
 
     </div>
@@ -81,7 +81,7 @@
   
 </svg>
 <span class='screen-reader-text'>发布 </span>
-  <time class='entry-date' datetime='2016-05-30T22:01:11&#43;08:00'>2016, May 30</time>
+  <time class='entry-date' datetime='2018-12-27T00:02:22&#43;08:00'>2018, Dec 27</time>
 </span>
 
   
@@ -92,7 +92,7 @@
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-需要1分钟读完
+需要2分钟读完
 </span>
 
 
@@ -106,13 +106,109 @@
   
 
   <div class='container entry-content'>
-  <p>倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想说，怕说出来就变成真的了。</p>
+  
 
-<p>最后这几天自己也难以控制的变得懒散，堕落，离目标越来越远，离梦想越来越远，总安慰自己还有机会，高二时看着八九百名的成绩告诉自己高三还有机会，高三看着八九百名的成绩告诉自己后一百天还有机会，最后几十天看着一直不能过500分的成绩告诉自己大学还有机会。其实呢。这个阶段输了，就是输了，再没有机会了，时光不会倒流，人生不能重来，即使下个阶段赢回来，也是下个阶段的赢，这个阶段就是输了，无法挽回的输。</p>
+<h2 id="1-大小写转换">1.大小写转换</h2>
 
-<p>回想这十二年，还是个充满遗憾的十二年，是个最后时刻输了的十二年。这十二年是人生的起跑线，而我把起跑线输掉了。我可以用以后的人生来弥补现在的过错。但是这十二年，我输了。</p>
+<p>str.upper()          # 把所有字符中的小写字母转换成大写字母</p>
 
-<p>​                                               2016年5月30日</p>
+<p>str.lower()          # 把所有字符中的大写字母转换成小写字母</p>
+
+<p>str.capitalize()    # 把第一个字母转化为大写字母，其余小写</p>
+
+<p>str.title()          # 把每个单词的第一个字母转化为大写，其余小写</p>
+
+<h2 id="2-进制转换">2.进制转换</h2>
+
+<p>dec = int(input(&ldquo;输入数字：&rdquo;))   #获取用户输入十进制数</p>
+
+<p>bin(dec)    #转换为二进制为</p>
+
+<p>oct(dec)    #转换为八进制为</p>
+
+<p>hex(dec)    #转换为十六进制为</p>
+
+<h2 id="3-反向列表中元素">3.反向列表中元素</h2>
+
+<p>list.reverse()  #该方法没有返回值，但是会对列表的元素进行反向排序。</p>
+
+<h2 id="4-输入到列表-以空格分割">4.输入到列表，以空格分割</h2>
+
+<p>a = list(input().split())</p>
+
+<h2 id="5-排序">5.排序</h2>
+
+<p>1.sorted([5, 2, 3, 1, 4])</p>
+
+<p>2.a = [5, 2, 3, 1, 4]</p>
+
+<p>a.sort()</p>
+
+<h2 id="6-list转换为str">6.list转换为str</h2>
+
+<p>a= &lsquo;,&rsquo;.join([&lsquo;abc&rsquo;,&lsquo;def&rsquo;,&lsquo;ghi&rsquo;]) #&ldquo;内的是分割符</p>
+
+<p>print(a)</p>
+
+<p>得到</p>
+
+<p>&lsquo;abc,def,ghi&rsquo;</p>
+
+<h2 id="7-二进制转十进制">7.二进制转十进制</h2>
+
+<p>int(&ldquo;101010&rdquo;,2)</p>
+
+<h2 id="8-每隔一个元素相加的和">8.每隔一个元素相加的和</h2>
+
+<p>sum =[1,4,3,2]</p>
+
+<p>sum(nums[::2])=1+3=4</p>
+
+<h2 id="9-dict">9.dict</h2>
+
+<p>a={&lsquo;b&rsquo;:1}</p>
+
+<p>a.get(&lsquo;b&rsquo;)</p>
+
+<p>输出1</p>
+
+<p>a.get(&lsquo;c&rsquo;,0)</p>
+
+<p>输出为0</p>
+
+<h2 id="10-生成二维list">10.生成二维list</h2>
+
+<p>一般情况下生成一维list可以用</p>
+
+<p>a=[0]*4</p>
+
+<p>结果为a=[0,0,0,0]</p>
+
+<p>可以用相同的思想生成二维list，也就是</p>
+
+<p>b=[[0]*4]*4</p>
+
+<p>结果为[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
+
+<p>这样做看似没有问题，但是在修改list内元素的时候，修改一个元素，会影响其他元素</p>
+
+<p>例如</p>
+
+<p>b[0][0]=1</p>
+
+<p>期望得到b=[[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
+
+<p>但是实际上会得到b=[[1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]]</p>
+
+<p>这是因为后面其余行可以看作是第一行复制出来的。</p>
+
+<p>所以在生成list的时候，最好用</p>
+
+<p>c=[([0]*4)for i in range(4)]</p>
+
+<p>c[0][0]=1</p>
+
+<p>得到c=[[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
 
 </div>
 
@@ -127,7 +223,7 @@
   
 </svg>
 </span>
-  <span class='screen-reader-text'>标签: </span><a class='tag' href='/tags/%E9%9A%8F%E7%AC%94'>随笔</a></div>
+  <span class='screen-reader-text'>标签: </span><a class='tag' href='/tags/%E6%8A%80%E6%9C%AF'>技术</a></div>
 
   </div>
 </footer>
@@ -136,16 +232,16 @@
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='next-entry sep-before'>
-      <a href='/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/'>
-        <span class='screen-reader-text'>下一篇文章: </span>关于写作<span aria-hidden='true'>下一个 <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/post/gnome%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
   
 </svg>
-</span>
-      </a>
+ 上一个</span>
+        <span class='screen-reader-text'>上一篇文章: </span>Gnome管理应用程序图标</a>
     </div></div>
 </nav>
 
