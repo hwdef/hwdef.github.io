@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</loc>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/</loc>
     <lastmod>2018-12-27T00:02:22+08:00</lastmod>
   </url>
@@ -119,7 +124,7 @@
   
   <url>
     <loc>https://hwdef.github.io/post/</loc>
-    <lastmod>2018-12-27T00:02:22+08:00</lastmod>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -155,13 +160,13 @@
   
   <url>
     <loc>https://hwdef.github.io/tags/github/</loc>
-    <lastmod>2018-06-06T00:27:06+08:00</lastmod>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hwdef.github.io/</loc>
-    <lastmod>2018-12-27T00:02:22+08:00</lastmod>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -177,7 +182,7 @@
   
   <url>
     <loc>https://hwdef.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2018-12-27T00:02:22+08:00</lastmod>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   

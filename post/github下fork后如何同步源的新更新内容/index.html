@@ -4,19 +4,19 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想'>
+<meta name='description' content='本文是整理自知乎回答， gitlab或github下fork后如何同步源的新更新内容？ 就当做个笔记，防止自己忘记。 1.查看远端状态 git remote -v 2.添'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='高考之前 • 以梦喂马'>
-<meta property='og:description' content='倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想'>
-<meta property='og:url' content='https://hwdef.github.io/post/%E9%AB%98%E8%80%83%E4%B9%8B%E5%89%8D/'>
+<meta property='og:title' content='Github下fork后如何同步源的新更新内容 • 以梦喂马'>
+<meta property='og:description' content='本文是整理自知乎回答， gitlab或github下fork后如何同步源的新更新内容？ 就当做个笔记，防止自己忘记。 1.查看远端状态 git remote -v 2.添'>
+<meta property='og:url' content='https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/'>
 <meta property='og:site_name' content='以梦喂马'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='随笔'><meta property='article:published_time' content='2016-05-30T22:01:11&#43;08:00'/><meta property='article:modified_time' content='2016-05-30T22:01:11&#43;08:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='技术'><meta property='article:tag' content='github'><meta property='article:published_time' content='2019-01-09T10:51:58&#43;08:00'/><meta property='article:modified_time' content='2019-01-09T10:51:58&#43;08:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.53" />
 
-  <title>高考之前 • 以梦喂马</title>
-  <link rel='canonical' href='https://hwdef.github.io/post/%E9%AB%98%E8%80%83%E4%B9%8B%E5%89%8D/'>
+  <title>Github下fork后如何同步源的新更新内容 • 以梦喂马</title>
+  <link rel='canonical' href='https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -68,7 +68,7 @@
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>高考之前</h1>
+      <h1 class='title'>Github下fork后如何同步源的新更新内容</h1>
       
 
     </div>
@@ -83,7 +83,7 @@
   
 </svg>
 <span class='screen-reader-text'>发布 </span>
-  <time class='entry-date' datetime='2016-05-30T22:01:11&#43;08:00'>2016, May 30</time>
+  <time class='entry-date' datetime='2019-01-09T10:51:58&#43;08:00'>2019, Jan 09</time>
 </span>
 
   
@@ -108,13 +108,41 @@
   
 
   <div class='container entry-content'>
-  <p>倒数这几十天就是个接受现实的过程，刚开始接受自己考不过550，慢慢的接受自己考不过530，再接受。。。。其实已经知道结果，但是不敢说，也不想说，怕说出来就变成真的了。</p>
+  
 
-<p>最后这几天自己也难以控制的变得懒散，堕落，离目标越来越远，离梦想越来越远，总安慰自己还有机会，高二时看着八九百名的成绩告诉自己高三还有机会，高三看着八九百名的成绩告诉自己后一百天还有机会，最后几十天看着一直不能过500分的成绩告诉自己大学还有机会。其实呢。这个阶段输了，就是输了，再没有机会了，时光不会倒流，人生不能重来，即使下个阶段赢回来，也是下个阶段的赢，这个阶段就是输了，无法挽回的输。</p>
+<p>本文是整理自知乎回答，</p>
 
-<p>回想这十二年，还是个充满遗憾的十二年，是个最后时刻输了的十二年。这十二年是人生的起跑线，而我把起跑线输掉了。我可以用以后的人生来弥补现在的过错。但是这十二年，我输了。</p>
+<p><a href="https://www.zhihu.com/question/28676261/answer/44606041" target="_blank">gitlab或github下fork后如何同步源的新更新内容？</a></p>
 
-<p>​                                               2016年5月30日</p>
+<p>就当做个笔记，防止自己忘记。</p>
+
+<h5 id="1-查看远端状态">1.查看远端状态</h5>
+
+<p><code>git remote -v</code></p>
+
+<h5 id="2-添加远端">2.添加远端</h5>
+
+<p><code>git remote add upstream &lt;远端仓库地址&gt;</code></p>
+
+<h5 id="3-再次查看远端状态-检查远端是否添加成功">3.再次查看远端状态，检查远端是否添加成功</h5>
+
+<p><code>git remote -v</code></p>
+
+<h5 id="4-从上游仓库-fetch-分支和提交点-提交给本地-master-并会被存储在一个本地分支-upstream-master">4.从上游仓库 fetch 分支和提交点，提交给本地 master，并会被存储在一个本地分支 upstream/master</h5>
+
+<p><code>git fetch upstream</code></p>
+
+<h5 id="5-切换到本地分支">5.切换到本地分支</h5>
+
+<p><code>git checkout master</code></p>
+
+<h5 id="6-把-upstream-master-分支合并到本地-master-上">6.把 upstream/master 分支合并到本地 master 上</h5>
+
+<p><code>git merge upstream/master</code></p>
+
+<h5 id="7-推送到自己的github上">7.推送到自己的github上</h5>
+
+<p><code>git push origin master</code></p>
 
 </div>
 
@@ -129,7 +157,7 @@
   
 </svg>
 </span>
-  <span class='screen-reader-text'>标签: </span><a class='tag' href='/tags/%E9%9A%8F%E7%AC%94'>随笔</a></div>
+  <span class='screen-reader-text'>标签: </span><a class='tag' href='/tags/%E6%8A%80%E6%9C%AF'>技术</a>, <a class='tag' href='/tags/github'>github</a></div>
 
   </div>
 </footer>
@@ -138,16 +166,16 @@
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='next-entry sep-before'>
-      <a href='/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/'>
-        <span class='screen-reader-text'>下一篇文章: </span>关于写作<span aria-hidden='true'>下一个 <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/post/leetcode%E7%AC%94%E8%AE%B0python/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
   
 </svg>
-</span>
-      </a>
+ 上一个</span>
+        <span class='screen-reader-text'>上一篇文章: </span>leetcode笔记(python)</a>
     </div></div>
 </nav>
 

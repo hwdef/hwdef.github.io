@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/tags/github/</link>
     <description>Recent content in github on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jun 2018 00:27:06 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jan 2019 10:51:58 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github下fork后如何同步源的新更新内容</title>
+      <link>https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</link>
+      <pubDate>Wed, 09 Jan 2019 10:51:58 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</guid>
+      <description>本文是整理自知乎回答， gitlab或github下fork后如何同步源的新更新内容？ 就当做个笔记，防止自己忘记。 1.查看远端状态 git remote -v 2.添</description>
+    </item>
     
     <item>
       <title>Git pull 拉取远程内容强制覆盖本地文件</title>
