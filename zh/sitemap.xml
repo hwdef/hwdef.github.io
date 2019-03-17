@@ -78,6 +78,12 @@
   </url>
   
   <url>
+    <loc>https://hwdef.github.io/tags/linux/</loc>
+    <lastmod>2018-10-09T11:22:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hwdef.github.io/post/</loc>
     <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
@@ -100,6 +106,7 @@
   
   <url>
     <loc>https://hwdef.github.io/tags/</loc>
+    <lastmod>2018-10-09T11:22:41+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -114,8 +121,26 @@
   </url>
   
   <url>
+    <loc>https://hwdef.github.io/tags/vscode/</loc>
+    <lastmod>2018-06-09T14:14:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hwdef.github.io/tags/windows/</loc>
+    <lastmod>2018-06-02T21:59:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hwdef.github.io/tags/github/</loc>
     <lastmod>2019-01-09T10:51:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hwdef.github.io/tags/leetcode/</loc>
+    <lastmod>2018-12-27T00:02:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -133,12 +158,6 @@
                 hreflang="zh"
                 href="https://hwdef.github.io/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
