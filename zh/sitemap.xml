@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hwdef.github.io/post/%E5%8C%97%E5%B2%9B%E4%BD%9C%E5%93%81/</loc>
-    <lastmod>2019-01-17T00:31:58+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</loc>
     <lastmod>2019-01-09T10:51:58+08:00</lastmod>
   </url>
@@ -20,16 +15,6 @@
   <url>
     <loc>https://hwdef.github.io/post/gnome%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87/</loc>
     <lastmod>2018-10-09T11:22:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E6%B3%A2%E5%85%B0%E6%9D%A5%E5%AE%A2/</loc>
-    <lastmod>2018-08-02T00:44:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E6%AF%8F%E6%AC%A1%E5%96%9D%E9%86%89%E9%83%BD%E6%98%AF%E9%87%8D%E7%94%9F/</loc>
-    <lastmod>2018-07-30T10:05:25+08:00</lastmod>
   </url>
   
   <url>
@@ -58,43 +43,8 @@
   </url>
   
   <url>
-    <loc>https://hwdef.github.io/post/%E6%91%87%E6%91%87%E6%99%83%E6%99%83%E7%9A%84%E4%BA%BA%E9%97%B4/</loc>
-    <lastmod>2018-05-18T21:37:53+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9/</loc>
-    <lastmod>2018-05-18T21:36:35+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E5%91%BC%E5%85%B0%E6%B2%B3%E4%BC%A0/</loc>
-    <lastmod>2018-05-18T21:30:52+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97/</loc>
-    <lastmod>2018-05-18T21:23:56+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</loc>
-    <lastmod>2018-05-18T18:55:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hwdef.github.io/about/</loc>
     <lastmod>2018-05-17T23:11:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/</loc>
-    <lastmod>2017-02-02T20:29:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/%E9%AB%98%E8%80%83%E4%B9%8B%E5%89%8D/</loc>
-    <lastmod>2016-05-30T22:01:11+08:00</lastmod>
   </url>
   
   <url>
@@ -129,7 +79,7 @@
   
   <url>
     <loc>https://hwdef.github.io/post/</loc>
-    <lastmod>2019-01-17T00:31:58+08:00</lastmod>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -171,7 +121,7 @@
   
   <url>
     <loc>https://hwdef.github.io/</loc>
-    <lastmod>2019-01-17T00:31:58+08:00</lastmod>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -188,24 +138,6 @@
   <url>
     <loc>https://hwdef.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2019-01-09T10:51:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/tags/%E6%91%98%E8%AE%B0/</loc>
-    <lastmod>2019-01-17T00:31:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/tags/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2019-01-17T00:31:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2018-07-30T10:05:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
