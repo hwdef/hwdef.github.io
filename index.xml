@@ -12,10 +12,10 @@
     
     <item>
       <title>Golang实现md5加密、解密</title>
-      <link>https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86%E8%A7%A3%E5%AF%86/</link>
+      <link>https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86/</link>
       <pubDate>Tue, 14 May 2019 21:40:02 +0800</pubDate>
       
-      <guid>https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86%E8%A7%A3%E5%AF%86/</guid>
+      <guid>https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86/</guid>
       <description>import ( &amp;#34;crypto/md5&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;io&amp;#34; ) func main() { str := &amp;#34;abc123&amp;#34; a := cymd5(str) fmt.Println(a) } func cymd5(str string) string { md5n := md5.New() //初始化md5对象 _, err := io.WriteString(md5n, str)//将str写入md5n if err != nil { panic(err) } res := fmt.Sp</description>
     </item>
     
