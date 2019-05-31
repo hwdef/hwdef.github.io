@@ -3,19 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86/</loc>
-    <lastmod>2019-05-14T21:40:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/post/</loc>
-    <lastmod>2019-05-14T21:40:02+08:00</lastmod>
+    <loc>https://hwdef.github.io/tags/linux/</loc>
+    <lastmod>2019-05-31T20:53:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://hwdef.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2019-05-31T20:53:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hwdef.github.io/post/</loc>
+    <lastmod>2019-05-31T20:53:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hwdef.github.io/tags/</loc>
+    <lastmod>2019-05-31T20:53:18+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hwdef.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hwdef.github.io/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://hwdef.github.io/</loc>
-    <lastmod>2019-05-14T21:40:02+08:00</lastmod>
+    <lastmod>2019-05-31T20:53:18+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -30,24 +52,19 @@
   </url>
   
   <url>
-    <loc>https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</loc>
-    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
+    <loc>https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86/</loc>
+    <lastmod>2019-05-14T21:40:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hwdef.github.io/tags/</loc>
-    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
+    <loc>https://hwdef.github.io/tags/golang/</loc>
+    <lastmod>2019-05-14T21:40:02+08:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hwdef.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hwdef.github.io/tags/"
-                />
+  </url>
+  
+  <url>
+    <loc>https://hwdef.github.io/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/</loc>
+    <lastmod>2019-01-09T10:51:58+08:00</lastmod>
   </url>
   
   <url>
@@ -70,12 +87,6 @@
   <url>
     <loc>https://hwdef.github.io/post/gnome%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87/</loc>
     <lastmod>2018-10-09T11:22:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hwdef.github.io/tags/linux/</loc>
-    <lastmod>2018-10-09T11:22:41+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

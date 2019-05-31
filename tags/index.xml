@@ -5,10 +5,28 @@
     <link>https://hwdef.github.io/tags/</link>
     <description>Recent content in Tags on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Jan 2019 10:51:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2019 20:53:18 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux</title>
+      <link>https://hwdef.github.io/tags/linux/</link>
+      <pubDate>Fri, 31 May 2019 20:53:18 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://hwdef.github.io/tags/golang/</link>
+      <pubDate>Tue, 14 May 2019 21:40:02 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>github</title>
@@ -25,15 +43,6 @@
       <pubDate>Thu, 27 Dec 2018 00:02:22 +0800</pubDate>
       
       <guid>https://hwdef.github.io/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://hwdef.github.io/tags/linux/</link>
-      <pubDate>Tue, 09 Oct 2018 11:22:41 +0800</pubDate>
-      
-      <guid>https://hwdef.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
