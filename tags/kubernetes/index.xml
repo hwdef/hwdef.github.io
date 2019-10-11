@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubernetes on 以梦喂马</title>
+    <link>https://hwdef.github.io/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on 以梦喂马</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Oct 2019 10:21:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://hwdef.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Centos7用kubeadm部署k8s集群踩坑</title>
+      <link>https://hwdef.github.io/post/centos7%E9%83%A8%E7%BD%B2k8s%E9%9B%86%E7%BE%A4%E8%B8%A9%E5%9D%91/</link>
+      <pubDate>Fri, 11 Oct 2019 10:21:40 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/centos7%E9%83%A8%E7%BD%B2k8s%E9%9B%86%E7%BE%A4%E8%B8%A9%E5%9D%91/</guid>
+      <description>将 k8s 集群从 ubuntu 换到了 centos，用 kubeadm 部署遇到了几个坑，记录一下 1.epel centos 默认源里什么都没有，安装 epel 是必须的。 sudo yum install epel-release 2.hostname 2.1 centos 特别坑的一点是，host</description>
+    </item>
+    
+  </channel>
+</rss>

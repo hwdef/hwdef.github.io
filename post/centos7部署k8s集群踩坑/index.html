@@ -2,19 +2,19 @@
 <html lang='zh'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='1.大小写转换 str.upper() # 把所有字符中的小写字母转换成大写字母 str.lower() # 把所有字符中的大写字母转换成小写字母 str.capitalize() # 把第一个字母转化为大写字母，其余小写 str.title() # 把'>
+<meta name='description' content='将 k8s 集群从 ubuntu 换到了 centos，用 kubeadm 部署遇到了几个坑，记录一下 1.epel centos 默认源里什么都没有，安装 epel 是必须的。 sudo yum install epel-release 2.hostname 2.1 centos 特别坑的一点是，host'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='leetcode笔记(python) • 以梦喂马'>
-<meta property='og:description' content='1.大小写转换 str.upper() # 把所有字符中的小写字母转换成大写字母 str.lower() # 把所有字符中的大写字母转换成小写字母 str.capitalize() # 把第一个字母转化为大写字母，其余小写 str.title() # 把'>
-<meta property='og:url' content='https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/'>
+<meta property='og:title' content='Centos7用kubeadm部署k8s集群踩坑 • 以梦喂马'>
+<meta property='og:description' content='将 k8s 集群从 ubuntu 换到了 centos，用 kubeadm 部署遇到了几个坑，记录一下 1.epel centos 默认源里什么都没有，安装 epel 是必须的。 sudo yum install epel-release 2.hostname 2.1 centos 特别坑的一点是，host'>
+<meta property='og:url' content='https://hwdef.github.io/post/centos7%E9%83%A8%E7%BD%B2k8s%E9%9B%86%E7%BE%A4%E8%B8%A9%E5%9D%91/'>
 <meta property='og:site_name' content='以梦喂马'>
-<meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='leetcode'><meta property='article:published_time' content='2018-12-27T00:02:22&#43;08:00'/><meta property='article:modified_time' content='2018-12-27T00:02:22&#43;08:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='kubernetes'><meta property='article:tag' content='Linux'><meta property='article:published_time' content='2019-10-11T10:21:40&#43;08:00'/><meta property='article:modified_time' content='2019-10-11T10:21:40&#43;08:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.58.3" />
 
-  <title>leetcode笔记(python) • 以梦喂马</title>
-  <link rel='canonical' href='https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/'>
+  <title>Centos7用kubeadm部署k8s集群踩坑 • 以梦喂马</title>
+  <link rel='canonical' href='https://hwdef.github.io/post/centos7%E9%83%A8%E7%BD%B2k8s%E9%9B%86%E7%BE%A4%E8%B8%A9%E5%9D%91/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -60,7 +60,7 @@
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>leetcode笔记(python)</h1>
+      <h1 class='title'>Centos7用kubeadm部署k8s集群踩坑</h1>
       
 
     </div>
@@ -74,7 +74,7 @@
   
 </svg>
 <span class='screen-reader-text'>发布 </span>
-  <time class='entry-date' datetime='2018-12-27T00:02:22&#43;08:00'>2018, Dec 27</time>
+  <time class='entry-date' datetime='2019-10-11T10:21:40&#43;08:00'>2019, Oct 11</time>
 </span>
 
   
@@ -85,7 +85,7 @@
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-需要2分钟读完
+需要1分钟读完
 </span>
 
 
@@ -101,108 +101,57 @@
   <div class='container entry-content'>
   
 
-<h2 id="1-大小写转换">1.大小写转换</h2>
+<p>将 k8s 集群从 ubuntu 换到了 centos，用 kubeadm 部署遇到了几个坑，记录一下</p>
 
-<p>str.upper()          # 把所有字符中的小写字母转换成大写字母</p>
+<h3 id="1-epel">1.epel</h3>
 
-<p>str.lower()          # 把所有字符中的大写字母转换成小写字母</p>
+<p>centos 默认源里什么都没有，安装 epel 是必须的。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum install epel-release</code></pre></div>
+<h3 id="2-hostname">2.hostname</h3>
 
-<p>str.capitalize()    # 把第一个字母转化为大写字母，其余小写</p>
+<h4 id="2-1">2.1</h4>
 
-<p>str.title()          # 把每个单词的第一个字母转化为大写，其余小写</p>
+<p>centos 特别坑的一点是，hostname 不会根据 username 自动设置，正常情况下影响不大，但是遇到 k8s 之后，这就是个留给新手的大坑，</p>
 
-<h2 id="2-进制转换">2.进制转换</h2>
+<p>虽然 <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/" target="_blank">k8s 官方文档</a>中说明了要确保 Unique hostname, MAC address, and product_uuid for every node.</p>
 
-<p>dec = int(input(&ldquo;输入数字：&rdquo;))   #获取用户输入十进制数</p>
+<p>但是如果每个 node 的 hostname 都相同，也不会报错，这就很坑。</p>
 
-<p>bin(dec)    #转换为二进制为</p>
+<p>如果你有多个 node，hostname 还都是一个名字，例如 centos 默认的 hostname ，那么当你运行</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubectl get nodes </code></pre></div>
+<p>结果只会显示一个master节点，因为k8s认为相同的 name 就是一个 node。</p>
 
-<p>oct(dec)    #转换为八进制为</p>
+<h4 id="2-2">2.2</h4>
 
-<p>hex(dec)    #转换为十六进制为</p>
+<p>要解决这个问题，就要在初始化集群之前为每一个 node 设置好唯一的 hostname。</p>
 
-<h2 id="3-反向列表中元素">3.反向列表中元素</h2>
+<h4 id="2-3">2.3</h4>
 
-<p>list.reverse()  #该方法没有返回值，但是会对列表的元素进行反向排序。</p>
+<p>如果你已经遇到了这个问题，那么最好是重建集群，</p>
 
-<h2 id="4-输入到列表-以空格分割">4.输入到列表，以空格分割</h2>
+<p>每个节点上运行</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubeadm reset</code></pre></div>
+<p>并且删除 $HOME/.kube/config</p>
 
-<p>a = list(input().split())</p>
+<p>然后用</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubeadm init </code></pre></div>
+<p>重建集群</p>
 
-<h2 id="5-排序">5.排序</h2>
+<h3 id="3-交换分区">3.交换分区</h3>
 
-<p>1.sorted([5, 2, 3, 1, 4])</p>
+<p>关闭交换分区对于 k8s 来说是必须的。但是网上很多教程都是用</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">swapoff a</code></pre></div>
+<p>这个命令虽然可以关闭交换分区，但是是暂时的。重启就会失效，k8s 集群也无法启动，</p>
 
-<p>2.a = [5, 2, 3, 1, 4]</p>
+<p>所以最好是在用 swapoff 命令的同时，也修改 /etc/fstab 文件，</p>
 
-<p>a.sort()</p>
+<p>通过注释掉 swap 部分，禁用交换分区的自动挂载</p>
 
-<h2 id="6-list转换为str">6.list转换为str</h2>
+<h3 id="4-firewall">4.firewall</h3>
 
-<p>a= &lsquo;,&rsquo;.join([&lsquo;abc&rsquo;,&lsquo;def&rsquo;,&lsquo;ghi&rsquo;]) #&ldquo;内的是分割符</p>
-
-<p>print(a)</p>
-
-<p>得到</p>
-
-<p>&lsquo;abc,def,ghi&rsquo;</p>
-
-<h2 id="7-二进制转十进制">7.二进制转十进制</h2>
-
-<p>int(&ldquo;101010&rdquo;,2)</p>
-
-<h2 id="8-每隔一个元素相加的和">8.每隔一个元素相加的和</h2>
-
-<p>sum =[1,4,3,2]</p>
-
-<p>sum(nums[::2])=1+3=4</p>
-
-<h2 id="9-dict">9.dict</h2>
-
-<p>a={&lsquo;b&rsquo;:1}</p>
-
-<p>a.get(&lsquo;b&rsquo;)</p>
-
-<p>输出1</p>
-
-<p>a.get(&lsquo;c&rsquo;,0)</p>
-
-<p>输出为0</p>
-
-<h2 id="10-生成二维list">10.生成二维list</h2>
-
-<p>一般情况下生成一维list可以用</p>
-
-<p>a=[0]*4</p>
-
-<p>结果为a=[0,0,0,0]</p>
-
-<p>可以用相同的思想生成二维list，也就是</p>
-
-<p>b=[[0]*4]*4</p>
-
-<p>结果为[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
-
-<p>这样做看似没有问题，但是在修改list内元素的时候，修改一个元素，会影响其他元素</p>
-
-<p>例如</p>
-
-<p>b[0][0]=1</p>
-
-<p>期望得到b=[[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
-
-<p>但是实际上会得到b=[[1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]]</p>
-
-<p>这是因为后面其余行可以看作是第一行复制出来的。</p>
-
-<p>所以在生成list的时候，最好用</p>
-
-<p>c=[([0]*4)for i in range(4)]</p>
-
-<p>c[0][0]=1</p>
-
-<p>得到c=[[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
-
+<p>关闭 firewall</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl disable firewalld
+systemctl stop firewalld</code></pre></div>
 </div>
 
   
@@ -213,7 +162,7 @@
   <line x1="7" y1="7" x2="7" y2="7"/>
   
 </svg>
-<span class='screen-reader-text'>标签: </span><a class='tag' href='/tags/leetcode/'>leetcode</a></div>
+<span class='screen-reader-text'>标签: </span><a class='tag' href='/tags/kubernetes/'>kubernetes</a>, <a class='tag' href='/tags/linux/'>Linux</a></div>
 
   </div>
 </footer>
@@ -223,7 +172,7 @@
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='/post/gnome%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87/'>
+      <a href='/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -231,17 +180,7 @@
   
 </svg>
  上一个</span>
-        <span class='screen-reader-text'>上一篇文章: </span>Gnome管理应用程序图标</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/post/github%E4%B8%8Bfork%E5%90%8E%E5%A6%82%E4%BD%95%E5%90%8C%E6%AD%A5%E6%BA%90%E7%9A%84%E6%96%B0%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9/'>
-        <span class='screen-reader-text'>下一篇文章: </span>Github下fork后如何同步源的新更新内容<span aria-hidden='true'>下一个 <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
+        <span class='screen-reader-text'>上一篇文章: </span>Linux常用命令</a>
     </div></div>
 </nav>
 
