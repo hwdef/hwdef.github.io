@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/tags/linux/</link>
     <description>Recent content in Linux on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Oct 2019 10:21:40 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 11:20:24 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>解决screen会话状态为Attached状态无法连接的方法</title>
+      <link>https://hwdef.github.io/post/%E8%A7%A3%E5%86%B3screen%E4%BC%9A%E8%AF%9D%E7%8A%B6%E6%80%81%E4%B8%BAattached%E7%8A%B6%E6%80%81%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 28 Oct 2019 11:20:24 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/%E8%A7%A3%E5%86%B3screen%E4%BC%9A%E8%AF%9D%E7%8A%B6%E6%80%81%E4%B8%BAattached%E7%8A%B6%E6%80%81%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>有时 screen 会话状态为 Attached 状态，使用 screen -r 无法链接 导致这种问题的原因是因为前一个用户的占用，解决方法是踢掉前一个用户 screen -D -r 会话名称</description>
+    </item>
     
     <item>
       <title>Centos7用kubeadm部署k8s集群踩坑</title>
