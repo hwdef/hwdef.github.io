@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/tags/golang/</link>
     <description>Recent content in golang on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 May 2019 21:40:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 10:32:05 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Yoda Condition</title>
+      <link>https://hwdef.github.io/post/yoda-condition/</link>
+      <pubDate>Tue, 05 Nov 2019 10:32:05 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/yoda-condition/</guid>
+      <description>使用 golang 静态检查的时候遇了一个没听过的词汇 Yoda condition 查了一下维基百科, 这里的 Yoda 就是星球大战中的尤达大师，因为他以非标准语法讲英语。 Yoda condition 是指表达式的两</description>
+    </item>
     
     <item>
       <title>Golang实现md5加密</title>
