@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/post/</link>
     <description>Recent content in Posts on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Nov 2019 10:32:05 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 Nov 2019 16:41:24 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我对一些linux发行版的印象</title>
+      <link>https://hwdef.github.io/post/%E6%88%91%E5%AF%B9%E4%B8%80%E4%BA%9Blinux%E5%8F%91%E8%A1%8C%E7%89%88%E7%9A%84%E5%8D%B0%E8%B1%A1/</link>
+      <pubDate>Fri, 08 Nov 2019 16:41:24 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/%E6%88%91%E5%AF%B9%E4%B8%80%E4%BA%9Blinux%E5%8F%91%E8%A1%8C%E7%89%88%E7%9A%84%E5%8D%B0%E8%B1%A1/</guid>
+      <description>从高一开始第一次接触 linux，我也多多少少装过几十个 linux 的发行版了，其中有的毫无特点，装完就格式化了，有些让我感到惊艳，也有一些发行版，通过</description>
+    </item>
     
     <item>
       <title>Yoda Condition</title>
