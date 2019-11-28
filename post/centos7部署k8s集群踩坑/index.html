@@ -140,7 +140,7 @@
 <h3 id="3-交换分区">3.交换分区</h3>
 
 <p>关闭交换分区对于 k8s 来说是必须的。但是网上很多教程都是用</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">swapoff a</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">swapoff -a</code></pre></div>
 <p>这个命令虽然可以关闭交换分区，但是是暂时的。重启就会失效，k8s 集群也无法启动，</p>
 
 <p>所以最好是在用 swapoff 命令的同时，也修改 /etc/fstab 文件，</p>
