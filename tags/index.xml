@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/tags/</link>
     <description>Recent content in Tags on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jan 2020 22:30:02 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 10:32:43 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux</title>
+      <link>https://hwdef.github.io/tags/linux/</link>
+      <pubDate>Wed, 27 May 2020 10:32:43 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kubernetes</title>
@@ -16,15 +25,6 @@
       <pubDate>Thu, 02 Jan 2020 22:30:02 +0800</pubDate>
       
       <guid>https://hwdef.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://hwdef.github.io/tags/linux/</link>
-      <pubDate>Wed, 11 Dec 2019 13:47:23 +0800</pubDate>
-      
-      <guid>https://hwdef.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

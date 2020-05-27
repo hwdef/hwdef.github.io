@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/tags/linux/</link>
     <description>Recent content in Linux on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Dec 2019 13:47:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 10:32:43 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>更改sddm的键盘布局</title>
+      <link>https://hwdef.github.io/post/%E6%9B%B4%E6%94%B9sddm%E7%9A%84%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80/</link>
+      <pubDate>Wed, 27 May 2020 10:32:43 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/%E6%9B%B4%E6%94%B9sddm%E7%9A%84%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80/</guid>
+      <description>sddm 全名是 Simple Desktop Display Manager， 是 KDE 推荐的显示管理器 我的系统使用的是 dvorak 键位，体验很好，在 KDE 桌面中，只需要在设置 -&amp;gt; 输入设备 -&amp;gt; 键盘 -&amp;gt; 布局中更改变体</description>
+    </item>
     
     <item>
       <title>Archlinux更新软件，出现与curl有关的错误的解决办法</title>
