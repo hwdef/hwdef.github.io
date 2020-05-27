@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='以梦喂马'>
 <meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='leetcode'><meta property='article:published_time' content='2018-12-27T00:02:22&#43;08:00'/><meta property='article:modified_time' content='2018-12-27T00:02:22&#43;08:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.69.0" />
 
   <title>leetcode笔记(python) • 以梦喂马</title>
   <link rel='canonical' href='https://hwdef.github.io/post/leetcode%E7%AC%94%E8%AE%B0python/'>
@@ -99,108 +99,56 @@
   
 
   <div class='container entry-content'>
-  
-
-<h2 id="1-大小写转换">1.大小写转换</h2>
-
+  <h2 id="1大小写转换">1.大小写转换</h2>
 <p>str.upper()          # 把所有字符中的小写字母转换成大写字母</p>
-
 <p>str.lower()          # 把所有字符中的大写字母转换成小写字母</p>
-
 <p>str.capitalize()    # 把第一个字母转化为大写字母，其余小写</p>
-
 <p>str.title()          # 把每个单词的第一个字母转化为大写，其余小写</p>
-
-<h2 id="2-进制转换">2.进制转换</h2>
-
-<p>dec = int(input(&ldquo;输入数字：&rdquo;))   #获取用户输入十进制数</p>
-
-<p>bin(dec)    #转换为二进制为</p>
-
-<p>oct(dec)    #转换为八进制为</p>
-
-<p>hex(dec)    #转换为十六进制为</p>
-
-<h2 id="3-反向列表中元素">3.反向列表中元素</h2>
-
+<h2 id="2进制转换">2.进制转换</h2>
+<p>dec = int(input(&ldquo;输入数字：&quot;))   #获取用户输入十进制数</p>
+<p>bin(dec)	#转换为二进制为</p>
+<p>oct(dec)	#转换为八进制为</p>
+<p>hex(dec)	#转换为十六进制为</p>
+<h2 id="3反向列表中元素">3.反向列表中元素</h2>
 <p>list.reverse()  #该方法没有返回值，但是会对列表的元素进行反向排序。</p>
-
-<h2 id="4-输入到列表-以空格分割">4.输入到列表，以空格分割</h2>
-
+<h2 id="4输入到列表以空格分割">4.输入到列表，以空格分割</h2>
 <p>a = list(input().split())</p>
-
-<h2 id="5-排序">5.排序</h2>
-
+<h2 id="5排序">5.排序</h2>
 <p>1.sorted([5, 2, 3, 1, 4])</p>
-
 <p>2.a = [5, 2, 3, 1, 4]</p>
-
 <p>a.sort()</p>
-
-<h2 id="6-list转换为str">6.list转换为str</h2>
-
-<p>a= &lsquo;,&rsquo;.join([&lsquo;abc&rsquo;,&lsquo;def&rsquo;,&lsquo;ghi&rsquo;]) #&ldquo;内的是分割符</p>
-
+<h2 id="6list转换为str">6.list转换为str</h2>
+<p>a= &lsquo;,'.join([&lsquo;abc&rsquo;,&lsquo;def&rsquo;,&lsquo;ghi&rsquo;]) #&lsquo;&lsquo;内的是分割符</p>
 <p>print(a)</p>
-
 <p>得到</p>
-
 <p>&lsquo;abc,def,ghi&rsquo;</p>
-
-<h2 id="7-二进制转十进制">7.二进制转十进制</h2>
-
+<h2 id="7二进制转十进制">7.二进制转十进制</h2>
 <p>int(&ldquo;101010&rdquo;,2)</p>
-
-<h2 id="8-每隔一个元素相加的和">8.每隔一个元素相加的和</h2>
-
+<h2 id="8每隔一个元素相加的和">8.每隔一个元素相加的和</h2>
 <p>sum =[1,4,3,2]</p>
-
 <p>sum(nums[::2])=1+3=4</p>
-
-<h2 id="9-dict">9.dict</h2>
-
+<h2 id="9dict">9.dict</h2>
 <p>a={&lsquo;b&rsquo;:1}</p>
-
 <p>a.get(&lsquo;b&rsquo;)</p>
-
 <p>输出1</p>
-
 <p>a.get(&lsquo;c&rsquo;,0)</p>
-
 <p>输出为0</p>
-
-<h2 id="10-生成二维list">10.生成二维list</h2>
-
+<h2 id="10生成二维list">10.生成二维list</h2>
 <p>一般情况下生成一维list可以用</p>
-
 <p>a=[0]*4</p>
-
 <p>结果为a=[0,0,0,0]</p>
-
 <p>可以用相同的思想生成二维list，也就是</p>
-
 <p>b=[[0]*4]*4</p>
-
 <p>结果为[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
-
 <p>这样做看似没有问题，但是在修改list内元素的时候，修改一个元素，会影响其他元素</p>
-
 <p>例如</p>
-
 <p>b[0][0]=1</p>
-
 <p>期望得到b=[[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
-
 <p>但是实际上会得到b=[[1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]]</p>
-
 <p>这是因为后面其余行可以看作是第一行复制出来的。</p>
-
 <p>所以在生成list的时候，最好用</p>
-
 <p>c=[([0]*4)for i in range(4)]</p>
-
 <p>c[0][0]=1</p>
-
 <p>得到c=[[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]</p>
 
 </div>

@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='以梦喂马'>
 <meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='golang'><meta property='article:published_time' content='2019-05-14T21:40:02&#43;08:00'/><meta property='article:modified_time' content='2019-05-14T21:40:02&#43;08:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.69.0" />
 
   <title>Golang实现md5加密 • 以梦喂马</title>
   <link rel='canonical' href='https://hwdef.github.io/post/golang%E5%AE%9E%E7%8E%B0md5%E5%8A%A0%E5%AF%86/'>
@@ -119,9 +119,8 @@
 	}
 	<span style="color:#a6e22e">res</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%x&#34;</span>,<span style="color:#a6e22e">md5n</span>.<span style="color:#a6e22e">Sum</span>(<span style="color:#66d9ef">nil</span>))<span style="color:#75715e">//将md5n里的hash.Hash格式转为[]byte格式
 </span><span style="color:#75715e"></span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">res</span>
-}</code></pre></div>
-<p>输出为</p>
-
+}
+</code></pre></div><p>输出为</p>
 <p><code>e99a18c428cb38d5f260853678922e03</code></p>
 
 </div>
