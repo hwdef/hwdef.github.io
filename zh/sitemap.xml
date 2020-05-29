@@ -3,18 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hwdef.github.io/tags/linux/</loc>
-    <lastmod>2020-05-27T10:32:43+08:00</lastmod>
+    <loc>https://hwdef.github.io/post/kubeadm%E6%8C%87%E5%AE%9A%E9%95%9C%E5%83%8F%E6%BA%90/</loc>
+    <lastmod>2020-05-29T11:14:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hwdef.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-05-29T11:14:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hwdef.github.io/post/</loc>
-    <lastmod>2020-05-27T10:32:43+08:00</lastmod>
+    <lastmod>2020-05-29T11:14:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hwdef.github.io/tags/</loc>
-    <lastmod>2020-05-27T10:32:43+08:00</lastmod>
+    <lastmod>2020-05-29T11:14:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://hwdef.github.io/</loc>
-    <lastmod>2020-05-27T10:32:43+08:00</lastmod>
+    <lastmod>2020-05-29T11:14:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,13 +48,13 @@
   </url>
   
   <url>
-    <loc>https://hwdef.github.io/post/%E6%9B%B4%E6%94%B9sddm%E7%9A%84%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80/</loc>
+    <loc>https://hwdef.github.io/tags/linux/</loc>
     <lastmod>2020-05-27T10:32:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hwdef.github.io/tags/kubernetes/</loc>
-    <lastmod>2020-01-02T22:30:02+08:00</lastmod>
+    <loc>https://hwdef.github.io/post/%E6%9B%B4%E6%94%B9sddm%E7%9A%84%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80/</loc>
+    <lastmod>2020-05-27T10:32:43+08:00</lastmod>
   </url>
   
   <url>
