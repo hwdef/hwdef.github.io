@@ -16,7 +16,7 @@
       <pubDate>Thu, 11 Jun 2020 14:52:55 +0800</pubDate>
       
       <guid>https://hwdef.github.io/post/%E9%85%8D%E7%BD%AElinux%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/</guid>
-      <description>每次通过 ssh 登录 linux 服务器都要输密码，很麻烦。 可以通过将本机的 ssh 公钥放到 linux 服务器中，就可以免密登录。 具体操作为 1.先找到本机的 ssh 公钥，一般都在 .ssh</description>
+      <description>每次通过 ssh 登录 linux 服务器都要输密码，很麻烦。 可以通过将本机的 ssh 公钥放到 linux 服务器中，就可以免密登录。 具体操作为 先找到本机的 ssh 公钥，一般都在 .ssh 文件</description>
     </item>
     
     <item>
