@@ -5,10 +5,19 @@
     <link>https://hwdef.github.io/tags/linux/</link>
     <description>Recent content in Linux on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Jun 2020 14:52:55 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 15:20:58 +0800</lastBuildDate>
     
 	<atom:link href="https://hwdef.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>配置多个ssh密钥</title>
+      <link>https://hwdef.github.io/post/%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AAssh%E5%AF%86%E9%92%A5/</link>
+      <pubDate>Fri, 12 Jun 2020 15:20:58 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AAssh%E5%AF%86%E9%92%A5/</guid>
+      <description>一般一个 ssh 密钥就可以满足需求，去 clone github 的代码，但是有些时候，可能需要多个 ssh 密钥，例如 github 用一个密钥，工作上用另一个密钥，这时候就需要做一些配置。</description>
+    </item>
     
     <item>
       <title>配置linux服务器免密登录</title>
