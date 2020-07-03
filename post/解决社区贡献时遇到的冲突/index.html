@@ -105,7 +105,7 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git checkout master
 git fetch upstream
 git merge upstream/master
-</code></pre></div><p>2.切换到 产生冲突的分支，这里用 <code>test</code> 距离，然后 rebase</p>
+</code></pre></div><p>2.切换到 产生冲突的分支，这里用 <code>test</code> 举例，然后 rebase</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git checkout test
 git rebase master
 </code></pre></div><p>这时会中断 rebase 提示你产生了冲突，需要解决。</p>
