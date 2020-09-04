@@ -117,11 +117,11 @@ config  id_rsa  id_rsa.pub  id_rsa_work  id_rsa_work.pub  known_hosts
     User *用户名*
     IdentityFile *指定的ssh密钥*
 </code></pre><p>例如</p>
-<pre><code>Host test
+<pre><code>Host 10.20.20.20
     HostName 10.20.20.20
     User centos
     IdentityFile /home/edward/.ssh/id_rsa_work
-</code></pre><p>这样当你访问 10.20.20.20 这个 ip 时，就会使用 id_rsa_work 这个密钥。</p>
+</code></pre><p>这样当你用 centos 这个用户访问 10.20.20.20 这个 ip 时，就会使用 id_rsa_work 这个密钥。</p>
 
 </div>
 
