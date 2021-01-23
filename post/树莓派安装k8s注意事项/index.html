@@ -110,9 +110,19 @@
 <p>谨慎使用阿里云源。在国内，使用阿里云源这种国内源是不可避免的。但是阿里云的源可能会有版本滞后等一系列问题，尤其是树莓派使用的 arm 版镜像，可能会因为阿里云中没有 arm 版镜像，而错误的 pull 了 amd64 的镜像，导致无法初始化集群。</p>
 </li>
 <li>
-<p>&hellip;</p>
+<p>推荐树莓派安装 k3s 的命令</p>
 </li>
 </ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export INSTALL_K3S_EXEC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;--docker --write-kubeconfig ~/.kube/config --write-kubeconfig-mode 666&#34;</span>
+curl -sfL http://rancher-mirror.cnrancher.com/k3s/k3s-install.sh | INSTALL_K3S_MIRROR<span style="color:#f92672">=</span>cn sh -
+</code></pre></div><p>参数解释：</p>
+<ul>
+<li><code>--docker</code> 使用 docker 而不是 containerd</li>
+<li><code>--write-kubeconfig ~/.kube/config</code> kubeconfig 位置</li>
+<li><code>--write-kubeconfig-mode 666</code> 普通用户也可以使用 kubectl</li>
+<li><code>curl -sfL http://rancher-mirror.cnrancher.com/k3s/k3s-install.sh</code> 在 rancher 中国下载安装脚本</li>
+<li><code>INSTALL_K3S_MIRROR=cn</code> 使用中国镜像源</li>
+</ul>
 
 </div>
 
