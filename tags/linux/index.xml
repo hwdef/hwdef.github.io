@@ -87,14 +87,5 @@
       <description>top 查看系统资源状态 htop top的高级版 free 查看内存的使用情况 whereis 查找命令、二进制文件的位置 chmod 对文件或文件夹进行权限操作，r 表示可读取，w 表示可写入，</description>
     </item>
     
-    <item>
-      <title>Gnome管理应用程序图标</title>
-      <link>https://hwdef.github.io/post/gnome%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87/</link>
-      <pubDate>Tue, 09 Oct 2018 11:22:41 +0800</pubDate>
-      
-      <guid>https://hwdef.github.io/post/gnome%E7%AE%A1%E7%90%86%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87/</guid>
-      <description>最近又从fedora换回archlinux，在fedora上管理图标已经很麻烦了，要在应用商店里选择。很反人类。 之前archlinux用的都</description>
-    </item>
-    
   </channel>
 </rss>
