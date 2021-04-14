@@ -5,7 +5,16 @@
     <link>https://hwdef.github.io/</link>
     <description>Recent content on 以梦喂马</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Dec 2020 13:53:45 +0800</lastBuildDate><atom:link href="https://hwdef.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 17:09:42 +0800</lastBuildDate><atom:link href="https://hwdef.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubelet在windows下获取的cpu数量不正确</title>
+      <link>https://hwdef.github.io/post/kubelet%E5%9C%A8windows%E4%B8%8B%E8%8E%B7%E5%8F%96%E7%9A%84cpu%E6%95%B0%E9%87%8F%E4%B8%8D%E6%AD%A3%E7%A1%AE/</link>
+      <pubDate>Wed, 14 Apr 2021 17:09:42 +0800</pubDate>
+      
+      <guid>https://hwdef.github.io/post/kubelet%E5%9C%A8windows%E4%B8%8B%E8%8E%B7%E5%8F%96%E7%9A%84cpu%E6%95%B0%E9%87%8F%E4%B8%8D%E6%AD%A3%E7%A1%AE/</guid>
+      <description>在 window 系统中，如果 cpu 的核心数量超过 64 个，那么 windows 会对 cpu 进行分组。例如 72 核的 cpu，会被分为两个 36 核的 cpu 组。分组是为了更好的性能，但是分组也会带来</description>
+    </item>
+    
     <item>
       <title>树莓派安装k8s注意事项</title>
       <link>https://hwdef.github.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85k8s%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</link>

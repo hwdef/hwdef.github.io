@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hwdef.github.io/tags/kubernetes/</loc>
-    <lastmod>2020-12-14T13:53:45+08:00</lastmod>
+    <loc>https://hwdef.github.io/tags/golang/</loc>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
   </url><url>
-    <loc>https://hwdef.github.io/tags/linux/</loc>
-    <lastmod>2020-12-14T13:53:45+08:00</lastmod>
+    <loc>https://hwdef.github.io/post/kubelet%E5%9C%A8windows%E4%B8%8B%E8%8E%B7%E5%8F%96%E7%9A%84cpu%E6%95%B0%E9%87%8F%E4%B8%8D%E6%AD%A3%E7%A1%AE/</loc>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
+  </url><url>
+    <loc>https://hwdef.github.io/tags/kubernetes/</loc>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
   </url><url>
     <loc>https://hwdef.github.io/post/</loc>
-    <lastmod>2020-12-14T13:53:45+08:00</lastmod>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
   </url><url>
     <loc>https://hwdef.github.io/tags/</loc>
-    <lastmod>2020-12-14T13:53:45+08:00</lastmod>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -24,8 +27,11 @@
                 href="https://hwdef.github.io/tags/"
                 />
   </url><url>
+    <loc>https://hwdef.github.io/tags/windows/</loc>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
+  </url><url>
     <loc>https://hwdef.github.io/</loc>
-    <lastmod>2020-12-14T13:53:45+08:00</lastmod>
+    <lastmod>2021-04-14T17:09:42+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -37,6 +43,9 @@
                 href="https://hwdef.github.io/"
                 />
   </url><url>
+    <loc>https://hwdef.github.io/tags/linux/</loc>
+    <lastmod>2020-12-14T13:53:45+08:00</lastmod>
+  </url><url>
     <loc>https://hwdef.github.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85k8s%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</loc>
     <lastmod>2020-12-14T13:53:45+08:00</lastmod>
   </url><url>
@@ -47,9 +56,6 @@
     <lastmod>2020-07-03T11:18:43+08:00</lastmod>
   </url><url>
     <loc>https://hwdef.github.io/tags/vscode/</loc>
-    <lastmod>2020-06-12T15:20:58+08:00</lastmod>
-  </url><url>
-    <loc>https://hwdef.github.io/tags/windows/</loc>
     <lastmod>2020-06-12T15:20:58+08:00</lastmod>
   </url><url>
     <loc>https://hwdef.github.io/post/%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AAssh%E5%AF%86%E9%92%A5/</loc>
@@ -72,9 +78,6 @@
   </url><url>
     <loc>https://hwdef.github.io/post/%E6%88%91%E5%AF%B9%E4%B8%80%E4%BA%9Blinux%E5%8F%91%E8%A1%8C%E7%89%88%E7%9A%84%E5%8D%B0%E8%B1%A1/</loc>
     <lastmod>2019-11-08T16:41:24+08:00</lastmod>
-  </url><url>
-    <loc>https://hwdef.github.io/tags/golang/</loc>
-    <lastmod>2019-11-05T10:32:05+08:00</lastmod>
   </url><url>
     <loc>https://hwdef.github.io/post/yoda-condition/</loc>
     <lastmod>2019-11-05T10:32:05+08:00</lastmod>
