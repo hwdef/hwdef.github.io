@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='以梦喂马'>
 <meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='Linux'><meta property='article:published_time' content='2019-10-28T11:20:24&#43;08:00'/><meta property='article:modified_time' content='2019-10-28T11:20:24&#43;08:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
   <title>解决screen会话状态为Attached状态无法连接的方法 • 以梦喂马</title>
   <link rel='canonical' href='https://hwdef.github.io/post/%E8%A7%A3%E5%86%B3screen%E4%BC%9A%E8%AF%9D%E7%8A%B6%E6%80%81%E4%B8%BAattached%E7%8A%B6%E6%80%81%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E7%9A%84%E6%96%B9%E6%B3%95/'>
@@ -104,7 +104,7 @@
   <p>有时 screen 会话状态为 Attached 状态，使用 screen -r 无法链接</p>
 <p><img src="https://i.loli.net/2019/10/28/rYE9nAuok6fwVBM.png" alt="2019-10-28 112244.png"></p>
 <p>导致这种问题的原因是因为前一个用户的占用，解决方法是踢掉前一个用户</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">screen -D -r 会话名称
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">screen -D -r 会话名称
 </code></pre></div>
 </div>
 

@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='以梦喂马'>
 <meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='Linux'><meta property='article:tag' content='Windows'><meta property='article:tag' content='VScode'><meta property='article:published_time' content='2020-06-12T15:20:58&#43;08:00'/><meta property='article:modified_time' content='2020-06-12T15:20:58&#43;08:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
   <title>配置多个ssh密钥 • 以梦喂马</title>
   <link rel='canonical' href='https://hwdef.github.io/post/%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AAssh%E5%AF%86%E9%92%A5/'>
@@ -103,11 +103,11 @@
   <div class='container entry-content'>
   <p>一般一个 ssh 密钥就可以满足需求，去 clone github 的代码，但是有些时候，可能需要多个 ssh 密钥，例如 github 用一个密钥，工作上用另一个密钥，这时候就需要做一些配置。</p>
 <p>首先在生成的时候，需要指定一下文件名，避免重名导致原有的 ssh 密钥被覆盖。例如可以像下面一样，加一个 work 后缀。之后一路按 enter。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>edward@DESKTOP-1OJ55DM release<span style="color:#f92672">]</span>$ ssh-keygen -t rsa -b <span style="color:#ae81ff">4096</span> -C <span style="color:#e6db74">&#34;your_email@example.com&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>edward@DESKTOP-1OJ55DM release<span style="color:#f92672">]</span>$ ssh-keygen -t rsa -b <span style="color:#ae81ff">4096</span> -C <span style="color:#e6db74">&#34;your_email@example.com&#34;</span>
 Generating public/private rsa key pair.
 Enter file in which to save the key <span style="color:#f92672">(</span>/home/edward/.ssh/id_rsa<span style="color:#f92672">)</span>: /home/edward/.ssh/id_rsa_work
 </code></pre></div><p>命令结束后，会在 <code>~/.ssh/</code> 文件夹下看到多个 ssh 文件</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># edward @ DESKTOP-1OJ55DM in ~/.ssh [15:27:47]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># edward @ DESKTOP-1OJ55DM in ~/.ssh [15:27:47]</span>
 $ ls
 config  id_rsa  id_rsa.pub  id_rsa_work  id_rsa_work.pub  known_hosts
 </code></pre></div><p>接下来是最重要的一步，现在每当使用 ssh 的时候，都会默认使用 id_rsa 这个密钥，不会使用 id_rsa_work 。 需要在配置文件中指定。</p>

@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='以梦喂马'>
 <meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='Linux'><meta property='article:published_time' content='2020-06-11T14:52:55&#43;08:00'/><meta property='article:modified_time' content='2020-06-11T14:52:55&#43;08:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
   <title>配置linux服务器免密登录 • 以梦喂马</title>
   <link rel='canonical' href='https://hwdef.github.io/post/%E9%85%8D%E7%BD%AElinux%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/'>
@@ -115,7 +115,7 @@
 <p>修改 <code>authorized_keys</code> 的权限</p>
 </li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">chmod <span style="color:#ae81ff">600</span> authorized_keys
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">chmod <span style="color:#ae81ff">600</span> authorized_keys
 </code></pre></div><ol start="4">
 <li>如还不能登录，需根据系统修改 ssh 配置文件，开启免密登录的设置</li>
 </ol>

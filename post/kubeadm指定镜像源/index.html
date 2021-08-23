@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='以梦喂马'>
 <meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:tag' content='kubernetes'><meta property='article:published_time' content='2020-05-29T11:14:10&#43;08:00'/><meta property='article:modified_time' content='2020-05-29T11:14:10&#43;08:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.83.1" />
+<meta name="generator" content="Hugo 0.87.0" />
 
   <title>Kubeadm指定镜像源 • 以梦喂马</title>
   <link rel='canonical' href='https://hwdef.github.io/post/kubeadm%E6%8C%87%E5%AE%9A%E9%95%9C%E5%83%8F%E6%BA%90/'>
@@ -108,7 +108,7 @@
 <li>换源</li>
 </ol>
 <p>kubeadm 换源的方式很方便，只需在 init 的时候使用 <code>--image-repository</code> 参数，后面加镜像源。国内一般用阿里云的，或者 azure 的。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers
 </code></pre></div>
 </div>
 
