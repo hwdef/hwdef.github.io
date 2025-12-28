@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on 以梦喂马</title><link>https://hwdef.github.io/tags/golang/</link><description>Recent content in Golang on 以梦喂马</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 14 Apr 2021 17:09:42 +0800</lastBuildDate><atom:link href="https://hwdef.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Kubelet在windows下获取的cpu数量不正确</title><link>https://hwdef.github.io/post/kubelet-windows-incorrect-cpu-count/</link><pubDate>Wed, 14 Apr 2021 17:09:42 +0800</pubDate><guid>https://hwdef.github.io/post/kubelet-windows-incorrect-cpu-count/</guid><description>在 window 系统中，如果 cpu 的核心数量超过 64 个，那么 windows 会对 cpu 进行分组。例如 72 核的 cpu，会被分为两个 36 核的 cpu 组。分组是为了更好的性能，但是分组也会带来</description></item><item><title>Yoda Condition</title><link>https://hwdef.github.io/post/yoda-condition/</link><pubDate>Tue, 05 Nov 2019 10:32:05 +0800</pubDate><guid>https://hwdef.github.io/post/yoda-condition/</guid><description>使用 golang 静态检查的时候遇了一个没听过的词汇 Yoda condition 查了一下维基百科, 这里的 Yoda 就是星球大战中的尤达大师，因为他以非标准语法讲英语。 Yoda condition 是指表达式的两</description></item><item><title>Golang实现md5加密</title><link>https://hwdef.github.io/post/golang-md5-implementation/</link><pubDate>Tue, 14 May 2019 21:40:02 +0800</pubDate><guid>https://hwdef.github.io/post/golang-md5-implementation/</guid><description>import ( &amp;quot;crypto/md5&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;io&amp;quot; ) func main() { str := &amp;quot;abc123&amp;quot; a := cymd5(str) fmt.Println(a) } func cymd5(str string) string { md5n := md5.New() //初始化md5对象 _, err := io.WriteString(md5n, str)//将str写入md5n if err != nil { panic(err) } res := fmt.Sp</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on 以梦喂马</title><link>https://www.hwdef.org/tags/golang/</link><description>Recent content in Golang on 以梦喂马</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 14 Apr 2021 17:09:42 +0800</lastBuildDate><atom:link href="https://www.hwdef.org/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Kubelet在windows下获取的cpu数量不正确</title><link>https://www.hwdef.org/post/kubelet-windows-incorrect-cpu-count/</link><pubDate>Wed, 14 Apr 2021 17:09:42 +0800</pubDate><guid>https://www.hwdef.org/post/kubelet-windows-incorrect-cpu-count/</guid><description>&lt;p&gt;在 window 系统中，如果 cpu 的核心数量超过 64 个，那么 windows 会对 cpu 进行&lt;a href="https://docs.microsoft.com/en-us/windows/win32/procthread/processor-groups"&gt;分组&lt;/a&gt;。例如 72 核的 cpu，会被分为两个 36 核的 cpu 组。分组是为了更好的性能，但是分组也会带来其他的问题。&lt;/p&gt;</description></item><item><title>Yoda Condition</title><link>https://www.hwdef.org/post/yoda-condition/</link><pubDate>Tue, 05 Nov 2019 10:32:05 +0800</pubDate><guid>https://www.hwdef.org/post/yoda-condition/</guid><description>&lt;p&gt;使用 golang 静态检查的时候遇了一个没听过的词汇&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Yoda condition
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;查了一下&lt;a href="https://zh.wikipedia.org/wiki/%E5%B0%A4%E9%81%94%E6%A2%9D%E4%BB%B6%E5%BC%8F"&gt;维基百科&lt;/a&gt;,&lt;/p&gt;
+&lt;p&gt;这里的 Yoda 就是星球大战中的尤达大师，因为他以非标准语法讲英语。&lt;/p&gt;
+&lt;p&gt;Yoda condition 是指表达式的两个部分与条件语句中的典型顺序相反，&lt;/p&gt;</description></item><item><title>Golang实现md5加密</title><link>https://www.hwdef.org/post/golang-md5-implementation/</link><pubDate>Tue, 14 May 2019 21:40:02 +0800</pubDate><guid>https://www.hwdef.org/post/golang-md5-implementation/</guid><description>&lt;pre&gt;&lt;code class="language-go"&gt;import (
+	&amp;quot;crypto/md5&amp;quot;
+	&amp;quot;fmt&amp;quot;
+	&amp;quot;io&amp;quot;
+)
+
+func main() {
+	str := &amp;quot;abc123&amp;quot;
+	a := cymd5(str)
+	fmt.Println(a)
+}
+
+func cymd5(str string) string {
+	md5n := md5.New() //初始化md5对象
+	_, err := io.WriteString(md5n, str)//将str写入md5n
+	if err != nil {
+		panic(err)
+	}
+	res := fmt.Sprintf(&amp;quot;%x&amp;quot;,md5n.Sum(nil))//将md5n里的hash.Hash格式转为[]byte格式
+	return res
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输出为&lt;/p&gt;</description></item></channel></rss>
